@@ -1,0 +1,18 @@
+Name:                http-easy
+Version:             0.0
+Synopsis:            A simple HTTP library
+Description:         A simple HTTP library
+Category:            Network
+License:             BSD3
+License-file:        LICENSE
+Author:              Hideyuki Tanaka
+Maintainer:          tanaka.hideyuki@gmail.com
+Build-type:          Simple
+Cabal-version:	     >= 1.2
+
+
+library
+  ghc-options:		-Wall -O2
+  build-depends:	base>=4, network, HTTP
+  hs-source-dirs:	src
+  exposed-modules:	Network.HTTP.Easy
